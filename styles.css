@@ -11,6 +11,10 @@ nav {
     left: 0;
     display: flex;
 }
+
+.nav-logo {
+    width: 50px;
+}
     
 @media (max-width: 500px) {
       
