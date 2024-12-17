@@ -9,6 +9,10 @@
 
     <title>Posada Doña Nirza</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Elsie:wght@400;900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="styles.css"/>
     <link rel="icon" href="./icons/hotel.ico" type="image/x-icon"/>
     
@@ -24,6 +28,7 @@
 
         <div class="header-img">
           <img src="images/logo.jpg" alt="" class="nav-logo">
+          <p>Posada Doña Nirza</p>
         </div>
         
         <div class="nav-links">
@@ -38,7 +43,7 @@
 
     <main>
 
-        <section id="hero">
+        <section id="hero" class="hero-section">
           <h1>Posada Doña Nirza</h1>
           <p class="hero-subtitle">¡Nuestra posada te ofrece seguridad, comodidad y confort al mejor precio!</p>
           <img src="images/hero-img.jpg" alt="">
@@ -95,22 +100,37 @@
 
         </section>
 
+        <section id="video-section">
 
-        <section id="contact"></section>
+          <h2>!Con musia en vivo!</h2>
+
+          <iframe width="640" height="360" src="https://www.youtube.com/embed/k0dmk8OfJ6A" title="Non je ne regrette rien - Madagascar 3 // Sub Español - Francés //" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        </section>
 
     </main>
 
+    <footer>
+
+      <h4 id="contact">Contactanos</h4>
+
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+
+        <label for="email">Email: <input id="email" type="email" placeholder="youremail@gmail.com" name="email"></label>
+        <label for="submit"><input id="submit" type="submit" value="Send contact"/><label>
+            
+
+      </form>
+      <p><span>Terminos</span><span>Privacidad</span> <span>Contacto</span></p>
+
+      <p>Copyright, Posada Doña Nirza 2024</p>
+
+
+    </footer>
+
     
 
-    <iframe id="video" width="670" height="377" src="https://www.youtube.com/embed/LIJlUTNSias" title="¿Por qué necesitas un abogado laboralista? - RALPE y Asocs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-    <form id="form" action="https://www.freecodecamp.com/email-submit">
-
-      <label for="email"><input id="email" type="email" placeholder="youremail@gmail.com" name="email"></label>
-      <label for="submit"><input id="submit" type="submit" value="Send contact"/><label>
-      
-
-    </form>
+    
 
 
   </body>
