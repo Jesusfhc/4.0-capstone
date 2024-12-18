@@ -13,6 +13,7 @@
 
 body {
     background-color: var(--color2);
+    
 }
 
 nav {
@@ -32,6 +33,7 @@ nav {
     align-items: center;
     justify-content: start;
     gap: 20px;
+    padding-left: 20px;
 }
 
 .header-img p {
@@ -71,12 +73,104 @@ main {
     margin: 5px auto;
 }
 
-h1 {
+h1, .hero-subtitle {
     font-family: "Elsie", serif;
     color: rgb(26, 56, 72);
+}
+
+h1 {
     font-size: 2em;
 }
+
+.hero-subtitle {
+    font-size: 1.3em;
+    text-align: center;
+    font-weight: 500;
+}
+
+.hero-img {
+    width: 40%;
+    min-width: 250px;
+}
+
+.space-title, .services-title, .video-title {
+    font-family: "Elsie", serif;
+    color: rgb(13, 38, 60);
+    font-size: 1.8em;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.spaces-imgs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5%;
+}
+
+.spaces-imgs img {
+    margin: 0 auto;
+}
+
+.services-container {
+    width: 80%;
+    display: grid;
+    grid-template-rows: 1fr;
+    margin: 20px auto 20px auto;
+}
+
+.services-container img {
+    width: 40%;
+    max-width: 80px;
+    margin-left: 15px;
+}
+
+.service-container {
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.video-section {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.video {
+    width: 90%;
+}
+
+footer {
+    width: 60%;
+    margin: 30px auto 0 auto;
+    background-color: var(--color1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 5px;
+    padding: 10px;
+}
+
+footer p {
+    line-height: normal;
+    margin-top: 5px;
+}
+
+footer span {
+    margin-right: 10px;
+}
     
-@media (max-width: 500px) {
+@media (max-width: 650px) {
+    .spaces-section {
+        margin-bottom: 100px;
+    }
+    .spaces-imgs {
+        grid-template-columns: 1fr;
+    }
       
 }
